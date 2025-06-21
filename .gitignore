@@ -3,7 +3,7 @@ sssdk/EMU/mednafen-1.29.0-win64/sav/
 sssdk/EMU/mednafen-1.29.0-win64/*.cfg
 sssdk/EMU/mednafen-1.29.0-win64/b/*
 sample/build/*
-sample/cd/*
+sample/cd/0.bin
 europa/build/*
 europa/cd/*
 *.cue
