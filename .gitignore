@@ -2,7 +2,7 @@
 sssdk/EMU/mednafen-1.29.0-win64/sav/
 sssdk/EMU/mednafen-1.29.0-win64/*.cfg
 sssdk/EMU/mednafen-1.29.0-win64/b/*
-megaman/build/*
-megaman/cd/*
+sample/build/*
+sample/cd/*
 *.cue
 .vscode/*
