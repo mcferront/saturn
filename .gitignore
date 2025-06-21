@@ -4,5 +4,7 @@ sssdk/EMU/mednafen-1.29.0-win64/*.cfg
 sssdk/EMU/mednafen-1.29.0-win64/b/*
 sample/build/*
 sample/cd/*
+europa/build/*
+europa/cd/*
 *.cue
 .vscode/*
