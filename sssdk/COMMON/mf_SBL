@@ -1,0 +1,84 @@
+#
+#■この makefile の利用手引き
+# 1. このファイルをサンプルのディレクトリにコピーしてください。
+# 2. ディレクトリの設定を調整してください。
+#    マクロ GCC, SEGALIB, SEGASMP を定義してください。
+# 3. コンフィギュレーションファイル sample.cfg を作成してください。
+#    マクロ TARGET と OBJS を定義してください。
+# 4. make を実行してサンプルプログラムを作成してください。
+#
+
+#
+#■このファイルで使われているマクロの説明
+#  CC           Ｃコンパイラを指定します。（実行可能な形で記述してください）
+#  CFLAGS       Ｃコンパイラのオプションを指定します。
+#  AS           アセンブラを指定します。（実行可能な形で記述してください）
+#  ASFLAGS      アセンブラのオプションを指定します。
+#  LDFLAGS      リンカのオプションを指定します。
+#  SATURN       サターン用のホームディレクトリを指定します。
+#  GCC          ＧＮＵのあるディレクトリを指定します。
+#  SEGASMP      ＳＢＬのサンプルのあるディレクトリを指定します。
+#  SEGALIB      ＳＢＬのライブラリのあるディレクトリを指定します。
+#  LOCATE_FILE  メモリのロケーションを記述したファイルです。
+#  ENTRY_POINT  サンプルプログラムの実行開始アドレスを指定します。
+#  LIBS         リンクするライブラリを指定します。
+#  
+#  （コンフィギュレーションファイル sample.cfg の中で定義します）
+#  TARGET       サンプルプログラムの名前を指定します。
+#               （ファイルのプライマリネームになります）
+#  OBJS         リンクするオブジェクトファイルを指定します。
+#
+# slightly modified for ISO building, COFF toolchain
+
+# specify on command line
+# OBJFMT = coff
+# OBJFMT = elf
+
+CC = sh-$(OBJFMT)-gcc
+AS = sh-$(OBJFMT)-as #gasm
+CONV = sh-$(OBJFMT)-objcopy
+RM = rm
+
+CFLAGS  = -g -O0 -Wall -m2 -DMODEL_S -I$(SEGALIB)/include #-I$(GCC)/include
+ASFLAGS =
+LDFLAGS = -T $(LOCATE_FILE) -e $(ENTRY_POINT) -nostartfiles -Xlinker --format=coff-sh
+
+SATURN  = $(SSSDK)/SBL_601
+#GCC     = $(SATURN)/gccsh
+SEGASMP = $(SATURN)/segasmp
+SEGALIB = $(SATURN)/segalib
+IPFILE   = $(SSSDK)/COMMON/IP.BIN
+
+LOCATE_FILE = $(SEGASMP)/lib/saturn.lnk
+ENTRY_POINT = START
+
+TARGET_COF = $(TARGET)_$(OBJFMT).cof
+TARGET_MAP = $(TARGET)_$(OBJFMT).map
+TARGET_BIN = $(TARGET)_$(OBJFMT).bin
+TARGET_ISO = $(TARGET)_$(OBJFMT).iso
+
+
+.SUFFIXES:
+.SUFFIXES: .cof .o .s .c
+
+all: $(TARGET_COF) $(TARGET_BIN) $(TARGET_ISO)
+
+$(TARGET_COF):	$(OBJS)
+	$(CC) $(LDFLAGS) $(_LDFLAGS) -o $(TARGET_COF) -Xlinker -Map -Xlinker $(TARGET_MAP) $(OBJS) $(LIBS)
+
+$(TARGET_BIN): $(OBJS) $(LOCATE_FILE)
+	$(CONV) -O binary $(TARGET_COF) $(TARGET_BIN)
+
+$(TARGET_ISO): $(TARGET_COF)
+	$(CONV) -O binary $(TARGET_COF) cd/0.bin
+	mkisofs -quiet -sysid "SEGA SATURN" -volid "SaturnApp" -volset "SaturnApp" -publisher "SEGA ENTERPRISES, LTD." -preparer "SEGA ENTERPRISES, LTD." -appid "SaturnApp" -abstract "ABS.TXT" -copyright "CPY.TXT" -biblio "BIB.TXT" -generic-boot $(IPFILE) -full-iso9660-filenames -o $(TARGET_ISO) cd  
+
+%.o: %.c
+	$(CC) -c $(CFLAGS) $(_CFLAGS) -o $@ $<
+
+%.o: %.s
+	$(AS) $< $(ASFLAGS) $(_ASFLAGS) -o $@
+
+clean:
+	$(RM) $(OBJS) $(TARGET_COF) $(TARGET_BIN) $(TARGET_ISO) $(TARGET_MAP) cd/0.bin
+

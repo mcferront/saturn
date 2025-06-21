@@ -1,0 +1,55 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+TARGET(coff-sh)
+
+.text           0x06002000     0x13d0
+ *(.text)
+ .text          0x06002000      0x100 sys_id.o
+ .text          0x06002100      0xd00 ../../SGL_302j/lib_coff/sys_sec.o
+ .text          0x06002e00       0x20 ../../SGL_302j/lib_coff/sys_arej.o
+ .text          0x06002e20       0x20 ../../SGL_302j/lib_coff/sys_aret.o
+ .text          0x06002e40       0x20 ../../SGL_302j/lib_coff/sys_areu.o
+ .text          0x06002e60       0x20 ../../SGL_302j/lib_coff/sys_aree.o
+ .text          0x06002e80      0x550 smpsys.o
+                0x06002fcc                __main
+                0x06002e80                main
+ *(.strings)
+                0x060033d0                _etext = .
+
+.tors           0x060033d0        0x0
+                0x060033d0                ___ctors = .
+ *(.ctors)
+                0x060033d0                ___ctors_end = .
+                0x060033d0                ___dtors = .
+ *(.dtors)
+                0x060033d0                ___dtors_end = .
+
+.data           0x060033d0       0x10
+ *(.data)
+ .data          0x060033d0       0x10 smpsys.o
+                0x060033e0                _edata = .
+
+.bss            0x060033e0       0x70
+                0x060033e0                _bss_start = .
+ *(.bss)
+ .bss           0x060033e0       0x70 smpsys.o
+ *(COMMON)
+                0x06003450                _bss_end = .
+                0x06003450                _end = .
+LOAD sys_id.o
+LOAD ../../SGL_302j/lib_coff/sys_sec.o
+LOAD ../../SGL_302j/lib_coff/sys_arej.o
+LOAD ../../SGL_302j/lib_coff/sys_aret.o
+LOAD ../../SGL_302j/lib_coff/sys_areu.o
+LOAD ../../SGL_302j/lib_coff/sys_aree.o
+LOAD smpsys.o
+OUTPUT(IP_coff.coff coff-sh)
+
+.comment        0x06003450       0x20
+ .comment       0x06003450       0x20 smpsys.o

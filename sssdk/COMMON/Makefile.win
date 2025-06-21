@@ -1,0 +1,30 @@
+# Project: cinit
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = sh-coff-g++.exe
+CC   = sh-coff-gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = cinit.o $(RES)
+LINKOBJ  = cinit.o $(RES)
+LIBS =  -L"$(SSSDK)/SGL_302j/LIB_COFF" -L"$(SSSDK)/SBL_601/SEGALIB/LIB_COFF" -m2 -Xlinker -T../COMMON/SL.LNK -Xlinker -Map -Xlinker sl.map -Xlinker -e -Xlinker ___Start -nostartfiles   
+INCS =  -I"$(SSSDK)/SGL_302j/INC"  -I"$(SSSDK)/SBL_601/SEGALIB/INCLUDE"  -I"$(SSSDK)/GNUSH_COFF/sh-coff/sh-coff/include"  -I"$(SSSDK)/TOOLS/BGCON" 
+CXXINCS =  -I"$(SSSDK)/SGL_302j/INC"  -I"$(SSSDK)/SBL_601/SEGALIB/INCLUDE"  -I"$(SSSDK)/GNUSH_COFF/sh-coff/include/c++/3.4-GNUSH_v0403"  -I"$(SSSDK)/TOOLS/BGCON" 
+BIN  = cinit.exe
+CXXFLAGS = $(CXXINCS) -m2 -Wno-deprecated #-fno-rtti -fno-exceptions  
+CFLAGS = $(INCS) -m2  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before cinit.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "cinit.exe" $(LIBS)
+
+cinit.o: cinit.c
+	$(CC) -c cinit.c -o cinit.o $(CFLAGS)

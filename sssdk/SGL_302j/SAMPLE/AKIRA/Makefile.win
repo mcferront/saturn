@@ -1,0 +1,55 @@
+# Project: SaturnDemo
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = sh-coff-g++.exe
+CC   = sh-coff-gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = ../../../COMMON/cinit.o AKI_ASHI.o AKI_DOU.o AKI_KAO.o AKI_KATA.o AKI_UDE.o AKI_WALK.o MAIN.o WORKAREA.o $(RES)
+LINKOBJ  = ../../../COMMON/cinit.o AKI_ASHI.o AKI_DOU.o AKI_KAO.o AKI_KATA.o AKI_UDE.o AKI_WALK.o MAIN.o WORKAREA.o $(RES)
+LIBS =  -L"C:/SaturnOrbit/SGL_302j/LIB_COFF" -L"C:/SaturnOrbit/SBL_601/SEGALIB/LIB_COFF" -m2 -Xlinker -T$(LINKFILE)  -Xlinker -Map -Xlinker $(MAPFILE) -Xlinker -e -Xlinker ___Start -nostartfiles -lsgl  
+INCS =  -I"C:/SaturnOrbit/SGL_302j/INC"  -I"C:/SaturnOrbit/SBL_601/SEGALIB/INCLUDE"  -I"C:/SaturnOrbit/GNUSH_COFF/sh-coff/sh-coff/include"  -I"C:/SaturnOrbit/TOOLS/BGCON" 
+CXXINCS =  -I"C:/SaturnOrbit/SGL_302j/INC"  -I"C:/SaturnOrbit/SBL_601/SEGALIB/INCLUDE"  -I"C:/SaturnOrbit/GNUSH_COFF/sh-coff/include/c++/3.4-GNUSH_v0403"  -I"C:/SaturnOrbit/TOOLS/BGCON" 
+BIN  = sl.coff
+CXXFLAGS = $(CXXINCS) -m2 -Wno-deprecated #-fno-rtti -fno-exceptions  
+CFLAGS = $(INCS) -m2  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before sl.coff all-after
+
+include ../../../COMMON/coff.mak
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "sl.coff" $(LIBS)
+
+../../../COMMON/cinit.o: ../../../COMMON/cinit.c
+	$(CC) -c ../../../COMMON/cinit.c -o ../../../COMMON/cinit.o $(CFLAGS)
+
+AKI_ASHI.o: AKI_ASHI.c
+	$(CC) -c AKI_ASHI.c -o AKI_ASHI.o $(CFLAGS)
+
+AKI_DOU.o: AKI_DOU.c
+	$(CC) -c AKI_DOU.c -o AKI_DOU.o $(CFLAGS)
+
+AKI_KAO.o: AKI_KAO.c
+	$(CC) -c AKI_KAO.c -o AKI_KAO.o $(CFLAGS)
+
+AKI_KATA.o: AKI_KATA.c
+	$(CC) -c AKI_KATA.c -o AKI_KATA.o $(CFLAGS)
+
+AKI_UDE.o: AKI_UDE.c
+	$(CC) -c AKI_UDE.c -o AKI_UDE.o $(CFLAGS)
+
+AKI_WALK.o: AKI_WALK.c
+	$(CC) -c AKI_WALK.c -o AKI_WALK.o $(CFLAGS)
+
+MAIN.o: MAIN.c
+	$(CC) -c MAIN.c -o MAIN.o $(CFLAGS)
+
+WORKAREA.o: WORKAREA.c
+	$(CC) -c WORKAREA.c -o WORKAREA.o $(CFLAGS)

@@ -1,0 +1,108 @@
+#
+#   SEGA SATURN Graphic library make file for GNU
+#
+# slightly modified for ISO building, COFF toolchain
+
+# specify on command line
+# OBJFMT = coff
+# OBJFMT = elf
+
+# macro
+CC = sh-$(OBJFMT)-gcc
+CONV = sh-$(OBJFMT)-objcopy
+RM = rm
+
+# directory
+SGLDIR = $(SSSDK)/SGL_302j
+SGLIDR = $(SGLDIR)/inc
+SGLLDR = $(SGLDIR)/lib_coff
+
+CMNDIR = $(SSSDK)/COMMON
+
+# option
+#CCFLAGS = -O2 -m2 -g -c -I$(SGLIDR)
+CCFLAGS = -O2 -m2 -c -I$(SGLIDR)
+
+# -m2 must be specified in LDFLAGS so the linker will search the SH2 lib dirs
+# Specify path of libsgl.a by using "-L" option
+
+LDFLAGS = -m2 -L$(SGLLDR) -Xlinker --format=coff-sh -Xlinker -T$(LDFILE) -Xlinker -Map \
+          -Xlinker $(MPFILE) -Xlinker -e -Xlinker ___Start -nostartfiles
+DFLAGS =
+
+TARGET   = $(OUTPUTDIR)/$(PROJECT).coff
+TARGET1  = $(TARGET:.coff=.bin)
+TARGET2  = $(TARGET:.coff=.iso)
+MPFILE   = $(TARGET:.coff=.map)
+IPFILE   = $(CMNDIR)/IP.BIN
+LDFILE   = $(CMNDIR)/SL.lnk
+MAKEFILE = makefile
+
+
+all: $(TARGET) $(TARGET1) $(TARGET2)
+
+# Use gcc to link so it will automagically find correct libs directory
+
+$(TARGET) : $(SYSOBJS) $(OBJS) $(MAKEFILE) $(LDFILE) $(SRCS)
+	$(CC) $(LDFLAGS) $(SYSOBJS) $(SRCS) $(LIBS) -o $@
+
+$(TARGET1) : $(SYSOBJS) $(OBJS) $(MAKEFILE) $(LDFILE)
+	$(CONV) -O binary $(TARGET) $(TARGET1)
+
+$(TARGET2): $(TARGET1)
+	$(CONV) -O binary $(TARGET) cd/0.bin
+	mkisofs -quiet -sysid "SEGA SATURN" -volid "SaturnApp" -volset "SaturnApp" -publisher "SEGA ENTERPRISES, LTD." -preparer "SEGA ENTERPRISES, LTD." -appid "SaturnApp" -abstract "ABS.TXT" -copyright "CPY.TXT" -biblio "BIB.TXT" -generic-boot $(IPFILE) -full-iso9660-filenames -o $(TARGET2) cd  
+
+#$(LDFILE) : $(MAKEFILE)
+#	@echo Making $(LDFILE)
+#	@echo SECTIONS {		> $@
+#	@echo 	SLSTART 0x06004000 : {	>> $@
+#	@echo 		___Start = .;	>> $@
+#	@echo 		*(SLSTART)	>> $@
+#	@echo 	}			>> $@
+#	@echo 	.text ALIGN(0x20) :			>> $@
+#	@echo 	{			>> $@
+#	@echo 		* (.text)			>> $@
+#	@echo 		*(.strings)			>> $@
+#	@echo 		__etext = .;			>> $@
+#	@echo 	}			>> $@
+#	@echo 	SLPROG ALIGN(0x20): {	>> $@
+#	@echo 		__slprog_start = .;	>> $@
+#	@echo 		*(SLPROG)	>> $@
+#	@echo 		__slprog_end = .;	>> $@
+#	@echo 	}			>> $@
+#	@echo 	.tors  ALIGN(0x10) :			>> $@
+#	@echo 	{			>> $@
+#	@echo 		___ctors = . ;			>> $@
+#	@echo 		*(.ctors)			>> $@
+#	@echo 		___ctors_end = . ;			>> $@
+#	@echo 		___dtors = . ;			>> $@
+#	@echo 		*(.dtors)			>> $@
+#	@echo 		___dtors_end = . ;			>> $@
+#	@echo 	}			>> $@
+#	@echo 	.data ALIGN(0x10):			>> $@
+#	@echo 	{			>> $@
+#	@echo 		* (.data)			>> $@
+#	@echo 		_edata = . ;			>> $@
+#	@echo 	}			>> $@
+#	@echo 	.bss ALIGN(0x10) (NOLOAD):			>> $@
+#	@echo 	{			>> $@
+#	@echo 		__bstart = . ;			>> $@
+#	@echo 		*(.bss)			>> $@
+#	@echo 		* ( COMMON )			>> $@
+#	@echo 		__bend = . ;			>> $@
+#	@echo 	_end = .;			>> $@
+#	@echo 	}			>> $@
+#	@echo }				>> $@
+
+# suffix
+.SUFFIXES: .asm
+
+.c.o:
+	$(CC) $< $(DFLAGS) $(CCFLAGS) $(_CCFLAGS) -o $@ 
+
+clean:
+	$(RM) $(OBJS) $(TARGET) $(TARGET1) $(TARGET2) $(MPFILE) cd/0.bin
+
+
+

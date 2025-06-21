@@ -1,0 +1,40 @@
+# Project: SaturnDemo
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = sh-coff-g++.exe
+CC   = sh-coff-gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = ../../../COMMON/cinit.o MAIN.o SCL_DATA.o SCL_FUNC.o $(RES)
+LINKOBJ  = ../../../COMMON/cinit.o MAIN.o SCL_DATA.o SCL_FUNC.o $(RES)
+LIBS =  -L"C:/SaturnOrbit/SGL_302j/LIB_COFF" -L"C:/SaturnOrbit/SBL_601/SEGALIB/LIB_COFF" -m2 -Xlinker -T$(LINKFILE)  -Xlinker -Map -Xlinker $(MAPFILE) -Xlinker -e -Xlinker ___Start -nostartfiles ../../LIB_COFF/SGLAREA.O ../../LIB_COFF/SEGA_SYS.A -lcd -lsgl  
+INCS =  -I"C:/SaturnOrbit/SGL_302j/INC"  -I"C:/SaturnOrbit/SBL_601/SEGALIB/INCLUDE"  -I"C:/SaturnOrbit/GNUSH_COFF/sh-coff/sh-coff/include"  -I"C:/SaturnOrbit/TOOLS/BGCON" 
+CXXINCS =  -I"C:/SaturnOrbit/SGL_302j/INC"  -I"C:/SaturnOrbit/SBL_601/SEGALIB/INCLUDE"  -I"C:/SaturnOrbit/GNUSH_COFF/sh-coff/include/c++/3.4-GNUSH_v0403"  -I"C:/SaturnOrbit/TOOLS/BGCON" 
+BIN  = sl.coff
+CXXFLAGS = $(CXXINCS) -m2 -Wno-deprecated #-fno-rtti -fno-exceptions  
+CFLAGS = $(INCS) -m2  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before sl.coff all-after
+
+include ../../../COMMON/coff.mak
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "sl.coff" $(LIBS)
+
+../../../COMMON/cinit.o: ../../../COMMON/cinit.c
+	$(CC) -c ../../../COMMON/cinit.c -o ../../../COMMON/cinit.o $(CFLAGS)
+
+MAIN.o: MAIN.c
+	$(CC) -c MAIN.c -o MAIN.o $(CFLAGS)
+
+SCL_DATA.o: SCL_DATA.c
+	$(CC) -c SCL_DATA.c -o SCL_DATA.o $(CFLAGS)
+
+SCL_FUNC.o: SCL_FUNC.c
+	$(CC) -c SCL_FUNC.c -o SCL_FUNC.o $(CFLAGS)

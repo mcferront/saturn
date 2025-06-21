@@ -1,0 +1,18 @@
+!!! different architecture after object conversion
+
+C:\SuperH\SGL_302j\LIB_ELF>sh-elf-objdump -f sglA00.o
+
+sglA00.o:     file format coff-sh
+architecture: sh, flags 0x00000030:
+HAS_SYMS, HAS_LOCALS
+start address 0x0000000000000000
+
+
+C:\SuperH\SGL_302j\LIB_ELF>sh-elf-objcopy -Icoff-sh -Oelf32-sh sglA00.o
+
+C:\SuperH\SGL_302j\LIB_ELF>sh-elf-objdump -f sglA00.o
+
+sglA00.o:     file format elf32-sh
+architecture: sh4, flags 0x00000010:
+HAS_SYMS
+start address 0x00000000

@@ -1,0 +1,500 @@
+Archive member included because of file (symbol)
+
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglD00.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slDMACopy)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH00.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (Smpc_Peripheral)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC06.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slDispSprite)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slInitSystem)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB001.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slTVOn)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglF00.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slLocate)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglF05.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slPrint)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB002.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slColRAMMode)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB016.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slBack1ColSet)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB200.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slCharNbg1)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB056.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slPlaneNbg1)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB032.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slMapNbg1)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB071.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slScrPosNbg1)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB015.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (slScrAutoDisp)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglI01.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (slInitSynch)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH02.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH00.o) (smpc_pfr_tbl)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH04.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH00.o) (slComPrmIntBack)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC20.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC06.o) (SpriteEntry)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglA01.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC06.o) (sin_tbl)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglA00.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (_builtin_set_imask)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglK01.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (SynchCount)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ00.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (InitSlaveSH)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglA20.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (slInitMatrix)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB000.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (slInitScroll)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ01.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (SlaveControl)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglI00.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (slInitInterrupt)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC00.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o) (slInitSprite)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB035.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB200.o) (rbank_set)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ03.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ01.o) (sbMakeDMATable)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ02.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ01.o) (sbMakePolygon)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ04.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ01.o) (sbMakeSprite)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ05.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ01.o) (sbSortEntry)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH03.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglI00.o) (slSmpcIntBack)
+C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglM01.o)
+                              C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ02.o) (DepthWorkArea)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(_ashiftrt_n.o)
+                              C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o (__ashrsi3)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(__main.o)
+                              C:\Users\trap\AppData\Local\Temp/cciskaaa.o (__main)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(atexit.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(__main.o) (atexit)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(impure.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(atexit.o) (_impure_ptr)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(malloc.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(atexit.o) (malloc)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(malloc.o) (_malloc_r)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(freer.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(malloc.o) (_free_r)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mlock.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o) (__malloc_lock)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(sbrkr.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o) (_sbrk_r)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(sbrkr.o) (_sbrk)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(trap.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o) (__trap34)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(abort.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o) (abort)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(signal.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(abort.o) (raise)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(signalr.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(signal.o) (_kill_r)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(_ashiftlt.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o) (__ashlsi3)
+C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(_udivsi3.o)
+                              C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(freer.o) (__udivsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+TARGET(coff-sh)
+
+SLSTART         0x06004000       0x30
+                0x06004000                ___Start = .
+ *(SLSTART)
+ SLSTART        0x06004000       0x28 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglI00.o)
+                0x06004002                slStartSGL
+                0x06004000                SGL_Start
+
+.text           0x06004040     0x9d00
+ *(.text)
+ .text          0x06004040      0x2f0 C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o
+                0x060041ac                ss_main
+ .text          0x06004330       0x80 C:\Users\trap\AppData\Local\Temp/cciskaaa.o
+                0x06004330                main
+ .text          0x060043b0     0x7f80 C:\Users\trap\AppData\Local\Temp/cc0Snaaa.o
+                0x0600bc70                pad_map
+                0x0600c130                pad_pal
+                0x060043b0                pad_cel
+ .text          0x0600c330      0x180 C:\Users\trap\AppData\Local\Temp/ccIjraaa.o
+                0x0600c454                Pal2CRAM
+                0x0600c376                Map2VRAM
+                0x0600c330                Cel2VRAM
+ .text          0x0600c4b0      0x200 C:\Users\trap\AppData\Local\Temp/ccqKuaaa.o
+                0x0600c4b0                yubi
+ .text          0x0600c6b0      0x128 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o)
+                0x0600c6b0                slInitSystem
+ *fill*         0x0600c7d8        0x8 00
+ .text          0x0600c7e0       0x80 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(_ashiftrt_n.o)
+                0x0600c7e0                __ashrsi3
+ .text          0x0600c860       0xc0 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(__main.o)
+                0x0600c8e0                __main
+                0x0600c860                __do_global_dtors
+                0x0600c8a0                __do_global_ctors
+ .text          0x0600c920       0xa0 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(atexit.o)
+                0x0600c920                atexit
+ .text          0x0600c9c0       0x10 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(impure.o)
+                0x0600c9c0                _global_impure_ptr
+ .text          0x0600c9d0       0x40 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(malloc.o)
+                0x0600c9f0                free
+                0x0600c9d0                malloc
+ .text          0x0600ca10      0x680 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o)
+                0x0600ca10                _malloc_r
+ .text          0x0600d090      0x3b0 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(freer.o)
+                0x0600d090                _malloc_trim_r
+                0x0600d190                _free_r
+ .text          0x0600d440       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mlock.o)
+                0x0600d440                __malloc_lock
+                0x0600d450                __malloc_unlock
+ .text          0x0600d460       0x50 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(sbrkr.o)
+                0x0600d460                _sbrk_r
+ .text          0x0600d4b0      0x430 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o)
+                0x0600d660                _exit
+                0x0600d6a0                _getpid
+                0x0600d720                _utime
+                0x0600d4f0                _write
+                0x0600d4b0                _read
+                0x0600d640                _unlink
+                0x0600d600                _open
+                0x0600d6c0                _stat
+                0x0600d650                isatty
+                0x0600d760                _wait
+                0x0600d680                _kill
+                0x0600d6e0                _chmod
+                0x0600d7a0                _execv
+                0x0600d780                _execve
+                0x0600d8a0                __setup_argv_and_call_main
+                0x0600d7f0                _gettimeofday
+                0x0600d530                _link
+                0x0600d6b0                _raise
+                0x0600d620                _creat
+                0x0600d7c0                _pipe
+                0x0600d700                _chown
+                0x0600d4d0                _lseek
+                0x0600d510                _close
+                0x0600d7e0                _times
+                0x0600d5e0                _fstat
+                0x0600d740                _fork
+                0x0600d560                _sbrk
+ .text          0x0600d8e0       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(trap.o)
+                0x0600d8e0                __trap34
+ .text          0x0600d900       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(abort.o)
+                0x0600d900                abort
+ .text          0x0600d920      0x2c0 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(signal.o)
+                0x0600da00                _raise_r
+                0x0600dbc0                __sigtramp
+                0x0600db60                raise
+                0x0600dba0                _init_signal
+                0x0600dae0                __sigtramp_r
+                0x0600db80                signal
+                0x0600d970                _signal_r
+                0x0600d920                _init_signal_r
+ .text          0x0600dbe0       0x60 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(signalr.o)
+                0x0600dc30                _getpid_r
+                0x0600dbe0                _kill_r
+ .text          0x0600dc40       0x90 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(_ashiftlt.o)
+                0x0600dc40                __ashlsi3
+ .text          0x0600dcd0       0x70 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(_udivsi3.o)
+                0x0600dcf2                __udivsi3
+ *(.strings)
+                0x0600dd40                __etext = .
+
+.rodata
+ *(.rodata)
+
+SLPROG          0x0600dd40     0xff50
+                0x0600dd40                __slprog_start = .
+ *(SLPROG)
+ SLPROG         0x0600dd40     0x6540 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff/sglarea.o
+                0x0600dd5c                SpriteBuf
+                0x0600dd80                RemainEvent
+                0x0600dd4c                SortList
+                0x0600dd4a                MaxPolygons
+                0x0600dd68                CommandBuf
+                0x0600dd7c                MaxWorks
+                0x0600dd7e                WorkSize
+                0x0600dd74                PCM_WkSize
+                0x0600dd6c                CLOfstBuf
+                0x0600de80                RemainWork
+                0x0600dd70                PCM_Work
+                0x0600dd40                MasterStack
+                0x0600dd44                SlaveStack
+                0x0600dd48                MaxVertices
+                0x0600dd78                MaxEvents
+                0x0600dd58                Zbuffer
+                0x0600dd60                SpriteBufSize
+                0x06010280                WorkBuf
+                0x0600dd54                TransList
+                0x0600dd64                Pbuffer
+                0x0600dd50                SortListSize
+                0x0600dd7a                EventSize
+                0x0600e280                EventBuf
+ SLPROG         0x06014280       0x84 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglD00.o)
+                0x06014280                slDMACopy
+                0x06014280                slCpuDMACopy
+                0x060142da                slCashPurge
+                0x060142da                CSH_AllClr
+ *fill*         0x06014304        0xc 00
+ SLPROG         0x06014310      0xfc8 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH00.o)
+                0x060143ac                slSetPortData1
+                0x0601439c                slGetPortData1
+                0x06014b8a                slSetPortMode1
+                0x06014dc4                Smpc_Status
+                0x06014362                slSetPortDir2
+                0x060149a8                slSmpcCashSend
+                0x060143c8                slGetPortSelect1
+                0x060147ae                slIntBackCancel
+                0x06014460                slSetPortExt1
+                0x06014b70                slGetPortMode1
+                0x06014a64                slSmpcCashBlow
+                0x06014d54                slRequestCommand
+                0x06014df4                SmpcStatusBuf
+                0x060143b6                slSetPortData2
+                0x06014716                slSetResultBuffer
+                0x0601444c                slGetPortExt1
+                0x06014490                slSetPortExt2
+                0x06014330                slGetPortDir2
+                0x06014456                slGetPortExt2
+                0x060147e2                slClearReset
+                0x060147d8                slCheckReset
+                0x06014338                slSetPortDir1
+                0x06014410                slSetPortSelect2
+                0x060143dc                slSetPortSelect1
+                0x06014b7c                slGetPortMode2
+                0x060143d2                slGetPortSelect2
+                0x06014328                slGetPortDir1
+                0x060143a4                slGetPortData2
+                0x06014b4a                slSetOptimize
+                0x06014b40                slGetOptimize
+                0x06014604                slSmpcDirectAccess
+                0x06014dd2                Per_Connect1
+                0x06014684                slInitPeripheral
+                0x060147a2                slCheckIntBackSet
+                0x06014dd3                Per_Connect2
+                0x06014dcc                Smpc_Peripheral
+                0x06014bc8                slSetPortMode2
+                0x06014dc8                Smpc_Result
+ *fill*         0x060152d8        0x8 00
+ SLPROG         0x060152e0       0xfa C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC06.o)
+                0x060152e0                slDispSprite
+ *fill*         0x060153da        0x6 00
+ SLPROG         0x060153e0       0x20 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB001.o)
+                0x060153e0                slTVOn
+                0x060153ea                slTVOff
+ SLPROG         0x06015400       0x4e C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglF00.o)
+                0x0601541a                slLocate
+                0x06015410                slCurColor
+                0x0601544c                CurrentScreen
+                0x06015400                slCurScrn
+ *fill*         0x0601544e        0x2 00
+ SLPROG         0x06015450       0x1c C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglF05.o)
+                0x06015450                slPrint
+ *fill*         0x0601546c        0x4 00
+ SLPROG         0x06015470       0x1e C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB002.o)
+                0x06015470                slColRAMMode
+ *fill*         0x0601548e        0x2 00
+ SLPROG         0x06015490        0xc C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB016.o)
+                0x06015490                slBack1ColSet
+ *fill*         0x0601549c        0x4 00
+ SLPROG         0x060154a0      0x114 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB200.o)
+                0x060154ac                slCharNbg0
+                0x060154f2                slPageRbg0
+                0x06015508                slPageNbg1
+                0x060154b8                slCharNbg1
+                0x06015524                slPageNbg0
+                0x06015510                slPageNbg2
+                0x06015518                slPageNbg3
+                0x060154c4                slCharNbg2
+                0x060154da                slCharNbg3
+                0x060154a0                slCharRbg0
+ *fill*         0x060155b4        0xc 00
+ SLPROG         0x060155c0        0xc C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB056.o)
+                0x060155c0                slPlaneNbg1
+ *fill*         0x060155cc        0x4 00
+ SLPROG         0x060155d0       0xb4 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB032.o)
+                0x060155d0                slMapNbg1
+ *fill*         0x06015684        0xc 00
+ SLPROG         0x06015690        0xc C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB071.o)
+                0x06015690                slScrPosNbg1
+ *fill*         0x0601569c        0x4 00
+ SLPROG         0x060156a0      0x40c C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB015.o)
+                0x060156a0                slScrAutoDisp
+ *fill*         0x06015aac        0x4 00
+ SLPROG         0x06015ab0      0x3a4 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglI01.o)
+                0x06015c9a                RetPCMBuf
+                0x06015dd4                Sound_Buf
+                0x06015ab0                slInitSynch
+                0x06015bc0                slRandom
+                0x06015d34                PCM_Buf
+                0x06015aca                slSynch
+                0x06015bde                PCM_EndCheck
+ *fill*         0x06015e54        0xc 00
+ SLPROG         0x06015e60      0x470 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH02.o)
+                0x06016250                smpc_pfr_tbl
+                0x06016290                smpc_ptf_tbl
+ SLPROG         0x060162d0       0x60 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH04.o)
+                0x060162fa                slComPrmSetTime
+                0x060162d0                slComPrmIntBack
+                0x060162e4                slComPrmSetMemory
+ SLPROG         0x06016330       0x40 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC20.o)
+                0x06016330                SpriteEntry
+ SLPROG         0x06016370     0x411e C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglA01.o)
+                0x0601644c                sin_cos_index_tbl
+                0x06016370                slSin
+                0x0601648c                sin_tbl
+                0x060163b8                GetSinCos
+                0x06016394                slCos
+ *fill*         0x0601a48e        0x2 00
+ SLPROG         0x0601a490       0x20 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglA00.o)
+                0x0601a4a4                get_imask
+                0x0601a490                set_imask
+                0x0601a490                _builtin_set_imask
+                0x0601a4a4                _builtin_get_imask
+ SLPROG         0x0601a4b0       0x74 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ00.o)
+                0x0601a4b0                InitSlaveSH
+                0x0601a518                SlaveCommand
+ *fill*         0x0601a524        0xc 00
+ SLPROG         0x0601a530      0x42c C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglA20.o)
+                0x0601a530                slInitMatrix
+                0x0601a54e                slUnitMatrix
+                0x0601a53a                slPushUnitMatrix
+ *fill*         0x0601a95c        0x4 00
+ SLPROG         0x0601a960      0xbd0 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB000.o)
+                0x0601a960                slInitScroll
+                0x0601abc0                TVSizeTbl
+                0x0601aab0                setASC_4to8
+                0x0601ac40                TVModeTbl
+                0x0601aa80                setASC_1to8
+                0x0601ae18                SGL_ASCII_CG
+ SLPROG         0x0601b530      0x3d0 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ01.o)
+                0x0601b530                SlaveControl
+                0x0601b8ec                ErasePolygonData
+ SLPROG         0x0601b900      0x75c C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglI00.o)
+                0x0601bbf0                slInitInterrupt
+ *fill*         0x0601c05c        0x4 00
+ SLPROG         0x0601c060      0x134 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglC00.o)
+                0x0601c060                slInitSprite
+ *fill*         0x0601c194        0xc 00
+ SLPROG         0x0601c1a0       0xd4 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglB035.o)
+                0x0601c1a0                sl1MapRA
+                0x0601c232                rbank_set
+ *fill*         0x0601c274        0xc 00
+ SLPROG         0x0601c280      0x140 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ03.o)
+                0x0601c280                sbMakeDMATable
+ SLPROG         0x0601c3c0     0x12b8 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ02.o)
+                0x0601d5f4                stvtc_1
+                0x0601d32c                stvtc_4
+                0x0601d2ec                SetPolygon
+                0x0601d3e4                stvtc_3
+                0x0601d61c                stvtc_0
+                0x0601d2f4                SetPosition
+                0x0601c5a8                sbCalcPolygon
+                0x0601d2e0                SetTexture
+                0x0601c3c0                sbMakePolygon
+                0x0601d608                stvtc_2
+ *fill*         0x0601d678        0x8 00
+ SLPROG         0x0601d680      0x470 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ04.o)
+                0x0601d744                sbMakeRotSprite
+                0x0601d6de                sbMakeSprite
+ SLPROG         0x0601daf0       0x3c C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglJ05.o)
+                0x0601daf0                sbSortEntry
+ *fill*         0x0601db2c        0x4 00
+ SLPROG         0x0601db30       0xf0 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglH03.o)
+                0x0601db94                slSmpcIntBack
+ SLPROG         0x0601dc20       0x6a C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglM01.o)
+                0x0601dc4c                slSetDepthTbl
+                0x0601dc7c                DepthWorkArea
+                0x0601dc20                slSetDepthLimit
+                0x0601dc8a                __slprog_end = .
+
+.tors           0x0601dc90        0x0
+                0x0601dc90                ___ctors = .
+ *(.ctors)
+                0x0601dc90                ___ctors_end = .
+                0x0601dc90                ___dtors = .
+ *(.dtors)
+                0x0601dc90                ___dtors_end = .
+
+.data           0x0601dc90      0x9b0
+ *(.data)
+ .data          0x0601dc90       0x20 C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o
+ .data          0x0601dcb0      0x180 C:\Users\trap\AppData\Local\Temp/ccqKuaaa.o
+                0x0601dd80                attr
+                0x0601de1c                tex_spr
+                0x0601de02                angz
+                0x0601de24                pic_spr
+                0x0601dcb0                stat
+ .data          0x0601de30       0x80 C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a(sglIc0.o)
+                0x0601de30                IntPrioMask
+ .data          0x0601deb0      0x380 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(impure.o)
+                0x0601e22c                _impure_ptr
+ .data          0x0601e230      0x410 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o)
+                0x0601e238                __malloc_av_
+                0x0601e234                __malloc_trim_threshold
+                0x0601e230                __malloc_sbrk_base
+                0x0601e640                __edata = .
+
+.bss            0x0601e640       0x84
+                0x0601e640                __bstart = .
+ *(.bss)
+ .bss           0x0601e640       0x10 C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o
+ .bss           0x0601e650       0x10 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(__main.o)
+ .bss           0x0601e660       0x10 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(atexit.o)
+ .bss           0x0601e670       0x40 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o)
+                0x0601e6a0                __malloc_top_pad
+                0x0601e670                __malloc_current_mallinfo
+                0x0601e69c                __malloc_max_sbrked_mem
+                0x0601e698                __malloc_max_total_mem
+ .bss           0x0601e6b0       0x10 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o)
+ *(COMMON)
+ COMMON         0x0601e6c0        0x4 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o)
+                                  0x0 (size before relaxing)
+                0x0601e6c0                errno
+                0x0601e6c4                __bend = .
+                0x0601e6c4                _end = .
+LOAD C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff/sglarea.o
+LOAD C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o
+LOAD C:\Users\trap\AppData\Local\Temp/cciskaaa.o
+LOAD C:\Users\trap\AppData\Local\Temp/cc0Snaaa.o
+LOAD C:\Users\trap\AppData\Local\Temp/ccIjraaa.o
+LOAD C:\Users\trap\AppData\Local\Temp/ccqKuaaa.o
+LOAD C:/Users/trap/git/saturn/sssdk/SGL_302j/lib_coff\libsgl.a
+LOAD C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a
+LOAD C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a
+LOAD C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a
+OUTPUT(build/sample.coff coff-sh)
+
+.comment        0x0601e6d0      0x220
+ .comment       0x0601e6d0       0x20 C:\Users\trap\AppData\Local\Temp/ccA1gaaa.o
+ .comment       0x0601e6f0       0x20 C:\Users\trap\AppData\Local\Temp/cciskaaa.o
+ .comment       0x0601e710       0x20 C:\Users\trap\AppData\Local\Temp/cc0Snaaa.o
+ .comment       0x0601e730       0x20 C:\Users\trap\AppData\Local\Temp/ccIjraaa.o
+ .comment       0x0601e750       0x20 C:\Users\trap\AppData\Local\Temp/ccqKuaaa.o
+ .comment       0x0601e770       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/m2\libgcc.a(__main.o)
+ .comment       0x0601e790       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(atexit.o)
+ .comment       0x0601e7b0       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(impure.o)
+ .comment       0x0601e7d0       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(malloc.o)
+ .comment       0x0601e7f0       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mallocr.o)
+ .comment       0x0601e810       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(freer.o)
+ .comment       0x0601e830       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(mlock.o)
+ .comment       0x0601e850       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(sbrkr.o)
+ .comment       0x0601e870       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(syscalls.o)
+ .comment       0x0601e890       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(abort.o)
+ .comment       0x0601e8b0       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(signal.o)
+ .comment       0x0601e8d0       0x20 C:/Users/trap/git/saturn/sssdk/SH_COFF/sh-coff/bin/../lib/gcc/sh-coff/3.4-GNUSH_v0501/../../../../sh-coff/lib/m2\libc.a(signalr.o)

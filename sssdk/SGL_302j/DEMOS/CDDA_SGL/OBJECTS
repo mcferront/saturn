@@ -1,0 +1,6 @@
+# source_program
+SRCS = src/main.c  $(CMNDIR)/cinit.o
+
+SYSOBJS = $(SGLLDR)/sglarea.o #src/sdata.o
+OBJS = $(SRCS:.c=.o)
+LIBS = -lsgl -lcd

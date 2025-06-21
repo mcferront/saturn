@@ -1,0 +1,6 @@
+# source_program
+SRCS = main.c pad.c polygon.c scl_data.c scl_func.c $(CMNDIR)/cinit.o
+
+SYSOBJS = $(SGLLDR)/sglarea.o
+OBJS = $(SRCS:.c=.o)
+LIBS = -lsgl

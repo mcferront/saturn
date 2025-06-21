@@ -1,0 +1,79 @@
+# Project: SaturnDemo
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = sh-coff-g++.exe
+CC   = sh-coff-gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = CINIT.o COLLIDE.o DEMO.o LIST.o MAIN.o MEM_MGR.o SATREND.o SATURN.o TEXTURE.o TREE.o VECTOR.o ACTOR.o AI.o AICTRL.o AILAND.o AISAUCER.o AITARGET.o $(RES)
+LINKOBJ  = CINIT.o COLLIDE.o DEMO.o LIST.o MAIN.o MEM_MGR.o SATREND.o SATURN.o TEXTURE.o TREE.o VECTOR.o ACTOR.o AI.o AICTRL.o AILAND.o AISAUCER.o AITARGET.o $(RES)
+LIBS =  -L"C:/SaturnOrbit/SGL_302j/LIB_COFF" -L"C:/SaturnOrbit/SBL_601/SEGALIB/LIB_COFF" -m2 -Xlinker -T$(LINKFILE)  -Xlinker -Map -Xlinker $(MAPFILE) -Xlinker -e -Xlinker ___Start -nostartfiles ../../LIB_COFF/SGLAREA.O -lcd -lsgl -lm  
+INCS =  -I"C:/SaturnOrbit/SGL_302j/INC"  -I"C:/SaturnOrbit/SBL_601/SEGALIB/INCLUDE"  -I"C:/SaturnOrbit/GNUSH_COFF/sh-coff/sh-coff/include"  -I"C:/SaturnOrbit/TOOLS/BGCON" 
+CXXINCS =  -I"C:/SaturnOrbit/SGL_302j/INC"  -I"C:/SaturnOrbit/SBL_601/SEGALIB/INCLUDE"  -I"C:/SaturnOrbit/GNUSH_COFF/sh-coff/include/c++/3.4-GNUSH_v0403"  -I"C:/SaturnOrbit/TOOLS/BGCON" 
+BIN  = sl.coff
+CXXFLAGS = $(CXXINCS) -m2 -Wno-deprecated #-fno-rtti -fno-exceptions  
+CFLAGS = $(INCS) -m2  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before sl.coff all-after
+
+include ../../../COMMON/coff.mak
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "sl.coff" $(LIBS)
+
+CINIT.o: CINIT.c
+	$(CC) -c CINIT.c -o CINIT.o $(CFLAGS)
+
+COLLIDE.o: COLLIDE.c
+	$(CC) -c COLLIDE.c -o COLLIDE.o $(CFLAGS)
+
+DEMO.o: DEMO.c
+	$(CC) -c DEMO.c -o DEMO.o $(CFLAGS)
+
+LIST.o: LIST.c
+	$(CC) -c LIST.c -o LIST.o $(CFLAGS)
+
+MAIN.o: MAIN.c
+	$(CC) -c MAIN.c -o MAIN.o $(CFLAGS)
+
+MEM_MGR.o: MEM_MGR.c
+	$(CC) -c MEM_MGR.c -o MEM_MGR.o $(CFLAGS)
+
+SATREND.o: SATREND.c
+	$(CC) -c SATREND.c -o SATREND.o $(CFLAGS)
+
+SATURN.o: SATURN.c
+	$(CC) -c SATURN.c -o SATURN.o $(CFLAGS)
+
+TEXTURE.o: TEXTURE.c
+	$(CC) -c TEXTURE.c -o TEXTURE.o $(CFLAGS)
+
+TREE.o: TREE.c
+	$(CC) -c TREE.c -o TREE.o $(CFLAGS)
+
+VECTOR.o: VECTOR.c
+	$(CC) -c VECTOR.c -o VECTOR.o $(CFLAGS)
+
+ACTOR.o: ACTOR.c
+	$(CC) -c ACTOR.c -o ACTOR.o $(CFLAGS)
+
+AI.o: AI.c
+	$(CC) -c AI.c -o AI.o $(CFLAGS)
+
+AICTRL.o: AICTRL.c
+	$(CC) -c AICTRL.c -o AICTRL.o $(CFLAGS)
+
+AILAND.o: AILAND.c
+	$(CC) -c AILAND.c -o AILAND.o $(CFLAGS)
+
+AISAUCER.o: AISAUCER.c
+	$(CC) -c AISAUCER.c -o AISAUCER.o $(CFLAGS)
+
+AITARGET.o: AITARGET.c
+	$(CC) -c AITARGET.c -o AITARGET.o $(CFLAGS)

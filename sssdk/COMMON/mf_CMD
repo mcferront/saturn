@@ -1,0 +1,52 @@
+#
+# (c) 2002/2003  Charles MacDonald
+#
+
+# been modified for SaturnOrbit
+# fixed to original GNUSH toolchain
+# other compiler might have a different location for libgcc.a
+#
+# need to define OBJFMT=coff or OBJFMT=elf on make commandline
+
+CC		=	sh-$(OBJFMT)-gcc
+AS		=	sh-$(OBJFMT)-as
+LD		=	sh-$(OBJFMT)-ld
+	
+EXE		=	main_$(OBJFMT).bin
+ISO		=	$(EXE:.bin=.iso)
+IPFILE 	=	$(SSSDK)/COMMON/IP.BIN
+
+LDFLAGS	=	-nostartfiles --script bart.lnk -Map $(EXE:.bin=.map)
+FLAGS		=	-Wall -Werror -m2 #-O2 -fomit-frame-pointer
+
+
+all	:	$(EXE) $(ISO)
+
+$(EXE)	:	$(OBJ)
+		$(LD) $(LDFLAGS) $(OBJ) $(LIBS) -o $(EXE)
+		$(LD) $(LDFLAGS) $(OBJ) $(LIBS) -o cd/0.bin
+
+$(ISO)	: $(EXE)
+		mkisofs -quiet -sysid "SEGA SATURN" -volid "SaturnApp" -volset "SaturnApp" -publisher "SEGA ENTERPRISES, LTD." -preparer "SEGA ENTERPRISES, LTD." -appid "SaturnApp" -abstract "ABS.TXT" -copyright "CPY.TXT" -biblio "BIB.TXT" -generic-boot $(IPFILE) -full-iso9660-filenames -o $(ISO) cd  
+	        
+$(OBJDIR)/%.o : 	%.c %.h
+		$(CC) -c $< -o $@ $(FLAGS) $(_FLAGS)
+	        
+$(OBJDIR)/%.o :	%.S
+		$(AS) $< -o $@
+	        
+pack	:	        
+		sh-$(OBJFMT)-strip $(EXE) --strip-all
+clean	:	        
+		rm -f $(OBJ)
+		rm -f $(EXE)
+		rm -f $(EXE:.bin=.map)
+		rm -f $(ISO)
+		rm -f cd/0.bin
+
+makedir :
+		mkdir obj
+        
+#
+# end of makefile
+#

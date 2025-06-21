@@ -1,0 +1,55 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+TARGET(coff-sh)
+
+.text           0x0000000006002000     0x13d0
+ *(.text)
+ .text          0x0000000006002000      0x100 sys_id.o
+ .text          0x0000000006002100      0xd00 ../../SGL_302j/lib_coff/sys_sec.o
+ .text          0x0000000006002e00       0x20 ../../SGL_302j/lib_coff/sys_arej.o
+ .text          0x0000000006002e20       0x20 ../../SGL_302j/lib_coff/sys_aret.o
+ .text          0x0000000006002e40       0x20 ../../SGL_302j/lib_coff/sys_areu.o
+ .text          0x0000000006002e60       0x20 ../../SGL_302j/lib_coff/sys_aree.o
+ .text          0x0000000006002e80      0x548 smpsys.o
+                0x0000000006002fc4                __main
+                0x0000000006002e80                main
+ *(.strings)
+                0x00000000060033c8                _etext = .
+
+.tors           0x00000000060033d0        0x0
+                0x00000000060033d0                ___ctors = .
+ *(.ctors)
+                0x00000000060033d0                ___ctors_end = .
+                0x00000000060033d0                ___dtors = .
+ *(.dtors)
+                0x00000000060033d0                ___dtors_end = .
+
+.data           0x00000000060033d0       0x10
+ *(.data)
+ .data          0x00000000060033d0        0x8 smpsys.o
+                0x00000000060033d8                _edata = .
+
+.bss            0x00000000060033e0       0x68
+                0x00000000060033e0                _bss_start = .
+ *(.bss)
+ .bss           0x00000000060033e0       0x68 smpsys.o
+ *(COMMON)
+                0x0000000006003448                _bss_end = .
+                0x0000000006003448                _end = .
+LOAD sys_id.o
+LOAD ../../SGL_302j/lib_coff/sys_sec.o
+LOAD ../../SGL_302j/lib_coff/sys_arej.o
+LOAD ../../SGL_302j/lib_coff/sys_aret.o
+LOAD ../../SGL_302j/lib_coff/sys_areu.o
+LOAD ../../SGL_302j/lib_coff/sys_aree.o
+LOAD smpsys.o
+OUTPUT(IP_elf.elf coff-sh)
+
+.comment        0x0000000000000000       0x20
+ .comment       0x0000000000000000       0x1c smpsys.o
