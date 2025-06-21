@@ -1,4 +1,3 @@
-Windows
 Execute:
 1. setup.bat (to set environment variables)
 2. make (to make the project)
