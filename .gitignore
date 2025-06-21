@@ -5,6 +5,6 @@ sssdk/EMU/mednafen-1.29.0-win64/b/*
 sample/build/*
 sample/cd/0.bin
 europa/build/*
-europa/cd/*
+europa/cd/0.bin
 *.cue
 .vscode/*
