@@ -1,0 +1,6 @@
+get sblsamp running
+	needs your own START / main
+		example C:\Users\trap\git\saturn\sssdk\SBL_601\SEGASMP\LIB as a reference
+makefile is already setup - get it fully working
+will need a run.bat
+can remove the *.MAKs once we have our make working
